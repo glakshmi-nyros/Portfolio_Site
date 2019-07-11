@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /*style for the border-box*/
+* {
+  box-sizing: border-box;
+}
+/*style for the body*/
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #DB7093;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #900c3f;
+}
+/*style for the h1 tag in header*/
+
+.header h1 {
+  font-size: 25px;
+}
+
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-color: #DB7093;
+  padding-left:25px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+@media screen and (max-width: 100px) {
+  .leftcolumn, .rightcolumn {   
+    width: 10%;
+    padding: 0;
+  }
+}
+/*style for the table*/
+
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: white;}
+
+th {
+  background-color: #FFB6C1;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+  <!--header start-->
+<div class="header">
+  <h1 style="color:white;";>PERSONAL PORTFOLIO</h1>
+  </div>
+<div class="leftcolumn">
+
+   <div class="card">
+      <img class="profile-picture" src="nyros.png" width="75"/>
+      <div class="left">
+      <h2  style="color:#c70039;">INTRODUCTION:</h2>
+      <p>Name : Satya Lakshmi</p>
+      <p>Working as a trainee development engineer at nyros</p>
+    </div>
+  </div>
+  <!--Educational background-->
+<div class="card">
+      <h2 style="color:#c70039";>EDUCATIONAL BACKGROUND:</h2>
+      <table cellpadding="10">
+  <tr>
+    <th>Qualifications</th>
+    <th>Board/University</th>
+    <th>Year</th>
+    <th>Percentage</th>
+  </tr>
+  <tr>
+    <td>Btech(Computer Science and engineering)</td>
+    <td>Kiet-W</td>
+    <td>2015-2019</td>
+    <td>71.8%</td>
+  </tr>
+  <tr>
+    <td>Intermediate</td>
+    <td>Sri chaitanya junior college</td>
+    <td>2013-2015</td>
+    <td>69%</td>
+  </tr>
+  <tr>
+    <td>SSC</td>
+    <td>Bhashyam public school</td>
+    <td>2012-2013</td>
+    <td>9.3(GPA)</td>
+  
+  </tr>
+</table>
+      </div>
+      <!--contact-->
+    <div class="card">
+      <h2 style="color:#c70039";>CONTACT INFORMATION:</h2>
+     
+<p>*Name:G.V.S.SATYA LAKSHMI</p>
+<p>*FATHERS NAME:G.B.S.G SASTRY</p>
+<p>*DATE OF BIRTH:04-10-1998</p>
+<p>*ADDRESS:D/O G.B.S.G.SASTRY
+           
+            
+            <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspKAKINADA.</p>
+<p>*MOBILE NO:9493335899.
+</p>
+    
+
+</div>
+</div>
+     <!--Projects-->
+    <div class="rightcolumn">
+    <div class="card">
+      <h2 style="color:#c70039";>PROJECTS:</h2>
+      
+      <h4 style="color:#c70039";>GRAPHICAL PASSWORD AUTHENTICATION </h4>
+      
+      <h4 style="color:#c70039";>PROJECT DESCRIPTION:</h4>
+
+<p>
+ our project will have a registration and a login process while registering the user should choose a set of 5 pictures in password selection and while login he uses the pictures which are selected during the registration.
+</p>
+<h4 style="color:#c70039";>LANGUAGES USED:</h4>
+<p>Front End: HTML,CSS,JAVASCRIPT</p>
+<p>Back End:  Php,MYSQL</p>
+<h4 style="color:#c70039";>ADVANTAGES:</h4>
+  <p>*Security is very high.</p>
+  <p>*These schemes provide a way of making more human friendly passwords</p>
+  <p>*Dictionary attacks and brute force search are infeasible</p>
+  
+    </div>
+  
+  <!--core competencies-->
+ <div class="card">
+      
+      <h2 style="color:#c70039";>CORE COMPETENCIES:</h2>
+
+  <p>*Practice based learning</p>
+  <p>*Analytical thinking</p>
+  <p>*Team work</p>
+  <p>*Self motivation</p>
+  <p>*Commitment</p>
+  <p>*Self-learning</p>
+  <p>*Problem based solving</p>
+  <p>*Positive thinking</p>
+   
+  </div>
+</div>
+
+</body>
+</html>
